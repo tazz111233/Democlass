@@ -1,0 +1,44 @@
+body{
+    display: flex;
+   justify-content: center;
+   background-color: rgb(233, 127, 145);
+    
+}
+.container{
+    background-image: url(img/back-school-notepad-cute-cartoon-illustration_107355-717.avif);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#first{
+    padding-top: 100px;
+    margin-right: 120px;
+}
+#sec{
+    padding: 50px;
+    margin-right: 0;
+    font-size: 20px;
+}
+#input-area{
+    display: flex;
+    flex-direction: column;
+    
+}
+#input-area input{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+#add-button{
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
